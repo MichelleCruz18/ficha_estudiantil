@@ -131,6 +131,75 @@
             color: #f94c43;
         }
         
+        .cont .form{
+            font-weight: normal;
+            font-family: sans-serif;
+            color: #ffb026;
+            font-size:large;
+        }
+        .cont .form span{
+            font-weight: normal;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: large;
+        }
+        .contenedor{
+            background-color: rgba(102, 99, 99, 0.6) ;
+            width: 90%;
+            max-width: 650px;
+            margin: auto;
+            padding: 5px 35px;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            border-radius:3px;
+
+        }
+        .form-label{
+            display: block;
+            color: #0a2b5c;
+            font-size: 16px;
+            font-family: Quicksand;
+            position: relative;
+        }
+        .form-input, .form-textarea{
+            background-color: rgba(43, 41, 41, 0.7);
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #040f77;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+            font-size: 14px;
+            color: #fff;
+            font-family: Kanit;
+
+        }
+        .form-textarea{
+            resize: vertical;
+            max-height: 150px;
+            min-height: 50px;
+        }
+        .btn-submit{
+            width: 100%;
+            height: 50px;
+            font-family: Kanit;
+            outline: none;
+            background:#ff851b;
+            font-size: 16px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            cursor:pointer;
+            transition: all .5s ease;
+        }
+        .btn-submit:hover{
+            background-color: #eebf32;
+        }
+        .form-tittle{
+            font-family: Kanit;
+            color: white;
+        }
 
         @media only screen and (min-width:432px){
           .col-m-1{width: 8.33%;}
@@ -189,82 +258,25 @@
             <div class="contacto col-12 col-m-6 col-g-2"><a class="contacto" href="contacto.html">Contacto</a></div>
         </div>
     </div>
-    <div class="col-12 col-m-12 col-g-12"><img class="imgoferta" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/files/BOGO-45_1600x.jpg?v=1630461076" /></div>
-    <div class="subtitulo col-12 col-m-12 col-g-12">Los más vendidos</div>
+    <div class="cont col-12 col-m-12 col-g-12">
+        <div class="contenedor">
+         <form action="">
+             <div class="form" >
+                 <h1 class="form-tittle">Contacto</h1>
+             </div>
+             <label for="nombre" class="form-label">Nombres:</label>
+             <input type="text" id="nombre"class="form-input" placeholder="Escriba su nombre"><br>
 
+             <label for="dirección" class="form-label">Direccion</label>
+             <input type="text" class="form-input" id="direccion" placeholder="Escriba su dirección"><br>
 
-    <div class="zapatos">
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/normal_30054776-0_d7d14ddc-105b-41f6-840f-ba7488da8fe9_400x.jpg?v=1623351356"/>
-                <p class="pzapato nomzapato">TENNIS SPENCER - NAVY</p>
-                <p class="precio">L 400</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30056183-min_400x.jpg?v=1628629926"/>
-                <p class="pzapato nomzapato">BOTA FUSED TRI - COFFEE</p>
-                <p class="precio">L 2,079</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30054778_400x.jpg?v=1627593029"/>
-                <p class="pzapato nomzapato">TENNIS TOKIO - COLOR NAVY</p>
-                <p class="precio">L 500</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30061966-min_400x.jpg?v=1627496566"/>
-                <p class="pzapato nomzapato">Balerina Zoe 321A - Black De Mujer</p>
-                <p class="precio">L 489</p>
-                </a>
-            </div>
-        </div>
-    </div>
+             <label for="correo" class="form-label">Correo Electronico</label>
+             <input type="text" class="form-input" id="correo" placeholder="Escriba su correo"><br>
 
-    
-    
-    <div class="subtitulo linea col-12 col-m-12 col-g-12">Disney</div>
-    
-
-    <div class="zapatos">
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/112930731-min_400x.jpg?v=1631227133"/>
-                <p class="pzapato nomzapato">Tennis Avengers03 - Multi - Niño</p>
-                <p class="precio">L 949</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/ADOC55805-min_400x.jpg?v=1631223786"/>
-                <p class="pzapato nomzapato">Tennis Cars01 - Rojo - Niño</p>
-                <p class="precio">L 949</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/ADOC93888-min_400x.jpg?v=1631226380"/>
-                <p class="pzapato nomzapato">Tennis Mickey05 - Blanco - Niño</p>
-                <p class="precio">L 899</p>
-                </a>
-            </div>
-        </div>
-        <div class="zapato1 col-12 col-m-6 col-g-3">
-            <div class=" ">
-                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/ADOC93126-min_400x.jpg?v=1631220161"/>
-                <p class="pzapato nomzapato">Tennis Frozen03 - Blanco - Niña</p>
-                <p class="precio">L 899</p>
-                </a>
-            </div>
+             <label for="mensaje" class="form-label">Mensaje</label>
+             <textarea id="mensaje" class="form-textarea" placeholder="Aqui escriba su mensaje"></textarea><br>
+             <input type="submit" class="btn-submit" value="Enviar consulta">
+         </form>
         </div>
     </div>
 </body>
